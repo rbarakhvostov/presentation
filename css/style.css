@@ -1,0 +1,70 @@
+.slides .angular-logo {
+  width: 300px;
+  height: 320px;
+}
+section .history.present {
+  display: flex;
+} 
+.slides .author {
+  width: 350px;
+  height: 350px;
+}
+.history .notes {
+  font-size: 14px;
+}
+.advantages-title {
+  font-size: 40px;
+}
+.advantages {
+  font-size: 32px;
+}
+.advantages li {
+  margin-top: 10px;
+}
+.advantages li:first-child {
+  margin-top: 25px;
+}
+.typescript {
+  font-size: 26px;
+}
+.typescript p {
+  font-size: 28px;
+}
+.typescript-logo {
+  width: 200px;
+  height: 200px;
+}
+.ts-features-title {
+  margin-bottom: 15px;
+  font-size: 40px;
+}
+.ts-features li {
+  font-size: 34px;
+}
+.es6-features-title {
+  font-size: 40px;
+}
+.es6-features li {
+  font-size: 34px;
+  margin-top: 10px;
+}
+.es6-features li:first-child {
+  margin-top: 25px;
+}
+.Ang7-features-title {
+  font-size: 40px;
+}
+.Ang7-features li {
+  font-size: 32px;
+  margin-top: 10px;
+}
+.angular-cli code {
+  font-size: 30px;
+}
+.new-app code {
+  font-size: 30px;
+}
+.app-structure {
+  width: 502px;
+  height: 400px;
+}

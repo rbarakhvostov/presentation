@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+		<title>Angular overview</title>
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/reveal.css">
+    <link rel="stylesheet" href="css/theme/white.css">
+    <link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="lib/css/monokai.css">
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section><h2>Angular overview</h2><aside class="notes"><p>Angular overview</p></aside></section>
+				<section>
+					<p>Angular is a JavaScript open-source framework maintained by Google</p>
+					<img class="angular-logo" src="images/angular.png" alt="angular logo" width="482" height="512">
+					<aside class="notes">
+						<p>Angular is a JavaScript open-source framework maintained by Google</p>
+					</aside>
+        </section>
+        <section class="history">
+					<img class="author" src="images/misko-hevery.jpeg" alt="misko hevery" width="300" height="300">
+					<img class="author" src="images/abrons.jpg" alt="adam abrons" width="400" height="400">
+          <aside class="notes">
+            <p>AngularJS created by Misko Hevery and Adam Abrons</p>
+          </aside>
+				</section>
+				<section>
+					<h3 class="advantages-title">Angular is a great tool that will:</h3>
+					<ul class="advantages">
+						<li>Enable you to create software quicker and with less effort</li>
+						<li>Result in a more maintainable software</li>
+						<li>Encourage good programming practices and design patterns like MVC</li>
+						<li>Allow you to collaborate easier with other people</li>
+						<li>Allow you to become proficient in a reasonable time</li>
+					</ul>
+					<aside class="notes">
+						<p>Angular is a great tool</p>
+					</aside>
+				</section>
+				<section>
+          <section class="typescript">
+              <p>TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript, and adds optional static typing to the language</p>
+							<img class="typescript-logo" src="images/ts.png" alt="typescript-logo" width="1187" height="1187">
+							<aside class="notes">
+								<p>TypeScript is an open-source programming language</p>
+							</aside>
+					</section>
+					<section>
+						<ul class="ts-features">
+							<h3 class="ts-features-title">TypeScript features</h3>
+							<li>Static Typing</li>
+							<li>Object Oriented Programming based on classes</li>
+							<li>Support reactive programming using RxJS</li>
+						</ul>
+						<aside class="notes">
+							<p>TypeScript features</p>
+						</aside>
+					</section>
+          <section>
+            <pre>
+              <code>let a: number = 1;</code>
+              <code>let isActive: boolean = true;</code>
+              <code>let greeting: string = `Hello`;</code>
+              <code>let fruits: string[] = ['apples','apricots','avocados'];</code>
+              <code data-trim>
+                function add(a:number, b:number):number {
+                  return a+b;
+                }
+              </code>
+						</pre>
+						<aside class="notes">
+							<p>Code examples</p>
+						</aside>
+          </section>
+				</section>
+				<section>
+					<h3 class="es6-features-title">Angular includes the benefits taken from ES6:</h3>
+					<ul class="es6-features">
+						<li>For/Of loops</li>
+						<li>Improved dependency injection</li>
+						<li>Iterators</li>
+						<li>Reflection</li>
+						<li>Dynamic loading</li>
+						<li>Asynchronous template compilation</li>
+						<li>Simpler Routing</li>
+						</ul>
+						<aside class="notes">
+							<p>Angular includes the benefits taken from ES6.</p>
+						</aside>
+				</section>
+				<section>
+					<h3 class="Ang7-features-title">Angular 7 features</h3>
+					<ul class="Ang7-features">
+						<li>Optimizations to the build process that reduces the application size by removing unnecessary code</li>
+						<li>Material Design components with server-side rendering.</li>
+						<li>Angular Universal improvements for code allocation between the server and client-side versions of the application.</li>
+						<li>Lots of improvements in the Angular CLI</li>
+						<li>Smaller bundle sizes</li>
+						<li>Improved compiler that supports incremental compilation meaning faster rebuilds.</li>
+						<li>RxJS (reactive programming library) has been updated to version 6.x or later.</li>
+						<li>Angular now requires TypeScript 3.x</li>
+					</ul>
+					<aside class="notes">
+						<p>Angular 7 features</p>
+					</aside>
+				</section>
+				<section>
+					<section class="angular-cli">
+						<h3>The Angular CLI</h3>
+						<pre><code>npm install -g @angular/cli</code></pre>
+						<aside class="notes">
+							<p>Command line interface tool</p>
+						</aside>
+					</section>
+					<section class="new-app">
+						<pre><code>ng new "my-new-angular-app"</code></pre>
+						<aside class="notes">
+							<p>This command will create a folder named "my-new-angular-app" and will copy all the required dependencies and configuration settings.</p>
+						</aside>
+					</section>
+				</section>
+				<section>
+					<section class="project-structure">
+						<img src="images/project.PNG" alt="project structure" width="240" height="606">
+						<aside class="notes">
+								<h3>The Angular CLI does this for you:</h3>
+								<ul>
+									<li>Creates a new directory "my-new-angular-app"</li>
+									<li>Downloads and installs Angular libraries and any other dependencies</li>
+									<li>Installs and configures TypeScript</li>
+									<li>Installs and configures Karma & Protractor (testing libraries)</li>
+								</ul>
+						</aside>
+					</section>
+					<section>
+						<img class="app-structure" src="images/app-structure.PNG" alt="app structure" width="326" height="260">
+						<aside class="notes">
+							<p>This folder has all the components, modules, pages you will build the app upon.</p>
+						</aside>
+					</section>
+				</section>
+				<section class="spa">
+					<img src="images/spa.png" alt="spa" width="810" height="450">
+					<aside class="notes">
+						<p>Single-page applications (or SPA) are applications that accessed via web browser like other websites but offer more dynamic interactions resembling native mobile and desktop apps.</p>
+					</aside>
+				</section>
+			</div>
+		</div>
+		<script src="js/reveal.js"></script>
+		<script>
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true }
+				]
+			});
+		</script>
+	</body>
+</html>
