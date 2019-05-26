@@ -1,0 +1,79 @@
+Hello, my name is Roman Barakhvostov.
+
+My theme is Angular overview.
+
+Angular is a JavaScript open-source framework  to build more interactive web applications.
+When it all started this framework was called AngularJS. AngularJS are created by Misko Hevery and Adam Abrons in 2009.
+
+Then in 2016, Angular 2 arrived as a complete rewrite of the framework, improving from lessons learned and promising performance improvements, and a more scalable and more modern framework. The latest Stable release is 7.2.12.
+
+Angular is a great tool that will:
+-Enable you to create application quicker and with less effort
+-Result in a more maintainable application
+-Encourage good programming practices and design patterns like MVC
+-Allow you to collaborate easier with other people
+-Allow you to become proficient in a reasonable time
+ 
+Angular uses the TypeScript language. TypeScript is an open-source programming language developed and maintained by Microsoft. It is a strict syntactical superset of JavaScript.
+Typescript introduces following features:
+-Static Typing
+-Object Oriented Programming based on classes
+-Support reactive programming using RxJS
+
+These are code examples written in typescript
+In this example we have added a string type with array so that fruits variable can only accept an array with strings.
+Here we have added types to the function parameters and return type number.
+
+Angular also includes the benefits taken from EcmaScript6. These are the following benefits:
+-For/Of loops
+-Improved dependency injection
+-Iterators
+-Reflection
+-Dynamic loading
+-Asynchronous template compilation
+-Simpler Routing
+
+Angular 7 is full of new features, bug fixes, performance improvements.
+These are the following features:
+-Optimizations to the build process that reduces the application size by removing unnecessary code
+-Material Design components with server-side rendering
+-Angular Universal improvements for code allocation between the server and client-side versions of the application
+-Lots of improvements in the Angular CLI
+-Smaller bundle sizes
+-Improved compiler that supports incremental compilation meaning faster rebuilds
+-RxJS has been updated to version 6 or later
+-Angular now requires third version of the TypeScript
+
+Angular apps are created and developed primarily through the Angular CLI that helps project creation, adding files, and performing a variety of ongoing development tasks.
+The Angular CLI takes care of configuration and initialization of various libraries.
+To install the Angular CLI, run the following command on console.
+
+Now we have Angular and its dependencies are installed, we can move on and start building our Angular app.
+
+This command will create a folder named "my-new-angular-app" and will copy all the required dependencies and configuration settings.
+
+The Angular CLI does this for us:
+-Creates a new directory "my-new-angular-app"
+-Downloads and installs Angular libraries and any other dependencies
+-Installs and configures TypeScript
+-Installs and configures Karma & Protractor
+Karma and Protractor are the testing libraries
+
+Src is the most important folder. Here we have all the files that make our Angular app.
+App folder has all the components, modules, pages we will build the app upon.
+
+Angular app is modular. Every Angular app has at least one module — the root module.
+
+Components are the most basic building blocks of an UI and Angular applications. A component controls one or more sections on the screen (what we call views).
+
+Angular is a framework designed to build single page applications (SPAs) and most of its architecture design is focused towards doing that in an effective manner.
+
+Single-page applications (or SPA) are applications that accessed via web browser like other websites but offer more dynamic interactions resembling native mobile and desktop apps. The most notable difference between a regular website and SPA is the reduced amount of page refreshes.
+
+Typically, 95 percent of single page application code runs in the browser, the rest works in the server when the user needs new data or must perform secured operations such as authentication.
+
+As a result, the process of page rendering happens mostly on the client-side.
+
+That`s all.
+
+
